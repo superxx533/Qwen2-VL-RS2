@@ -1,0 +1,28 @@
+# model weights
+Qwen/
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+
+# training outputs
+output/
+outputs/
+runs/
+wandb/
+logs/
+log/
+
+# datasets / images
+rsvqa_images/
+data/
+dataset/
+datasets/
+
+# env / cache
+.venv/
+__pycache__/
+*.pyc
+.cache/
