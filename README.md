@@ -70,7 +70,7 @@ pip install requirements.txt
 
 ### RSVQA 数据准备
 
-1.下载 RSVQA 数据集（官方 GitHub 或 Zenodo）。
+1.下载 RSVQA 数据集（官方 GitHub https://github.com/kaaydin/vqa-remote-sensing 或 Zenodo https://zenodo.org/records/6344334）。
 
 2.解压图像到项目根目录下的 rsvqa_images/，图像名称一般为 0.tif, 1.tif, ...。
 
@@ -288,4 +288,5 @@ python compare_before_after.py
 - 计数题难度：对复杂遥感场景的精确计数（几十 / 几百目标）本身就很难，即使微调后仍可能出错；本项目重点在于让模型学会按 RSVQA 的标签形式回答（短 yes/no/数字）。
 
 - 路径一致性：保证训练脚本、对比脚本中使用的 base_model_path、lora_checkpoint_path 与实际文件路径一致。
+- Swanlab：运行train.py代码时请自行注册 SwanLab 账号，并填写 SwanLab API Key。
 
