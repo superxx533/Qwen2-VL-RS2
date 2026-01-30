@@ -24,6 +24,8 @@ Qwen2-VL-RS/
 
 ├── rsvqa_images/      # RSVQA 遥感图像（.tif）
 
+├── datasets.json   #网络抓取加大语言模型生成数据集
+
 ├── rsvqa_questions.json   # RSVQA 问题 JSON（questions 数组）
 
 ├── rsvqa_answers.json    # RSVQA 答案 JSON（answers 数组）
